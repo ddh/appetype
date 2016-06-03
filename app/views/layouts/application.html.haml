@@ -2,7 +2,7 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Risotto
+    %title Appetype
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
@@ -11,7 +11,7 @@
     -#Navigation bar
     %nav.navbar.navbar-default
       .container
-        .navbar-brand=link_to 'Risotto', root_path
+        .navbar-brand=link_to 'Appetype', root_path
 
 
         - if user_signed_in?
